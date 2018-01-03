@@ -4,9 +4,8 @@ name: "Mimikatz"
 index: elastalert_status
 realert:
     minutes: 0
-type: cardinality
-cardinality_field: rule_name
-min_cardinality: 1
+type: frequency
+num_events: 5
 filter:
 - terms:
     rule_name:
