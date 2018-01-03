@@ -1,0 +1,14 @@
+es_host: localhost
+es_port: 9200
+name: "hid"
+realert:
+    minutes: 0
+index: winlogbeat-*
+filter:
+- query:
+    wildcard:
+        event_data.ImageLoaded: "*hid*"
+type: any
+alert:
+    - command
+command: ["/bin/py-alert.py","-T","D","-a","Mimikatz","-o","/tmp/mimikatz","-c","%(computer_name)s"]

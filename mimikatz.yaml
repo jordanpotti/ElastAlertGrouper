@@ -1,0 +1,26 @@
+es_host: localhost
+es_port: 9200
+name: "Mimikatz"
+index: elastalert_status
+realert:
+    minutes: 0
+type: cardinality
+cardinality_field: rule_name
+min_cardinality: 1
+filter:
+- terms:
+    rule_name:
+        - winscard
+        - cryptdll
+        - hid
+        - samlib
+        - vaultcli
+- term:
+    alert_sent: true
+timeframe:
+    seconds: 1
+alert:
+    - slack
+alert:
+    - command
+command: ["python3","/bin/py-alert.py", "-T","S","-S","SLACKWEBHOOK","-o","/tmp/mimikatz","-a","Mimikatz","-t","5"]
