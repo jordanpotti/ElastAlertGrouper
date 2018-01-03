@@ -23,4 +23,4 @@ alert:
     - slack
 alert:
     - command
-command: ["python3","/bin/py-alert.py", "-T","S","-S","SLACKWEBHOOK","-o","/tmp/mimikatz","-a","Mimikatz","-t","5"]
+command: ["python3","/bin/py-alert.py", "-T","S","-S","SLACKWEBHOOK","-a","Mimikatz","-t","5"]
