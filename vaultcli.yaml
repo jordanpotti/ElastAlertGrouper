@@ -12,4 +12,4 @@ filter:
 type: any
 alert:
     - command
-command: ["/bin/py-alert.py","-T","D","-a","Mimikatz","-o","/tmp/mimikatz","-c","%(computer_name)s"]
+command: ["/bin/py-alert.py","-T","D","-a","Mimikatz","-c","%(computer_name)s"]
