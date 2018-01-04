@@ -11,7 +11,7 @@ A feature extension to ease the automation of Threat Hunting with ElastAlert and
 
 The arise for something like this came from the need to alert when a group of events takes place. You can determine what events you want to add and you can add as many or as few as you would like. 
 
-Want to alert when 4 certain DLLs are accessed and a new network connection is initiated within a 3 second period? This tool can allow you to do that. ElastAlert support mentioned that this would be a feature at some ponit but it has not been released yet. 
+Want to alert when 4 certain DLLs are accessed and a new network connection is initiated within a 3 second period? This tool can allow you to do that. ElastAlert support mentioned that this would be a feature at some point but it has not been released yet. 
 
 This tool requires little setup, just a few nuances you need to keep in mind when setting up your rules.
 
