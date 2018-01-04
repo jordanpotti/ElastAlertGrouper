@@ -1,5 +1,5 @@
 # ElastAlertGrouper
-A feature extension to ease the automation of Threat Hunting with ElastAlert and the ELK Stack
+A feature extension to ease the automation of Threat Hunting with ElastAlert and the ELK Stack by allowing us to perform various [Threat Hunting techniques](https://sqrrl.com/threat-hunting-reference-guide/)
  #### [@ok_bye_now](https://twitter.com/ok_bye_now)
 
 
