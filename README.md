@@ -9,7 +9,9 @@ A feature extension to ease the automation of Threat Hunting with ElastAlert and
 * [Setting up an ELK and Threat Hunint Lab](https://cyberwardog.blogspot.com/2017/02/setting-up-pentesting-i-mean-threat_98.html)
 * [Elastic Producs](https://www.elastic.co/products)
 
-The arise for something like this came from the need to alert when a group of events takes place. You can determine what events you want to add and you can add as many or as few as you would like. 
+## Why?
+
+The arise for something like this came from the need to alert when a group of events takes place. You can determine what events you want to add and you can add as many or as few as you would like. It's easy to alert when multiple events take place but the trouble starts when we need to make sure they are all from the same host. If you figure out how to do this with native ElastAlert rules, let me know :)
 
 Want to alert when 4 certain DLLs are accessed and a new network connection is initiated within a 3 second period? This tool can allow you to do that. ElastAlert support mentioned that this would be a feature at some point but it has not been released yet. 
 
