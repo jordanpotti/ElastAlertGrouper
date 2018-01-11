@@ -2,7 +2,7 @@
 A feature extension to ease the automation of Threat Hunting with ElastAlert and the ELK Stack by allowing us to perform various [Threat Hunting techniques](https://sqrrl.com/threat-hunting-reference-guide/)
  #### [@ok_bye_now](https://twitter.com/ok_bye_now)
 
-Due to the way ELK 6.x works with indeces and types, this tool may not work. Will be working on integrating this in the near future.
+Due to the way ELK 6.x works with indices and types, this tool may not work with versions 6.x or newer. Will be working on integrating this in the near future.
 
 ### More resources for Threat Hunting
 * [Various Elastic and Threat Hunting articles](https://jordanpotti.com/tag/elastic/)
